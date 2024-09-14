@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`block-comment.json - json-verify 1`] = `
+{/*comment*/"K":"V"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{ /*comment*/ "K": "V" }
+
+`;
+
+exports[`block-comment.json - json-verify 2`] = `
+{/*comment*/"K":"V"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{ /*comment*/ "K": "V" }
+
+`;
+
+exports[`block-comment.json - json5-verify 1`] = `
+{/*comment*/"K":"V"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{ /*comment*/ K: "V" }
+
+`;
+
+exports[`block-comment.json - json5-verify 2`] = `
+{/*comment*/"K":"V"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{ /*comment*/ K: "V" }
+
+`;
+
+exports[`bottom-block-comment.json - json-verify 1`] = `
+1 /* block-comment */
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 /* block-comment */
+
+`;
+
+exports[`bottom-block-comment.json - json-verify 2`] = `
+1 /* block-comment */
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 /* block-comment */
+
+`;
+
+exports[`bottom-block-comment.json - json5-verify 1`] = `
+1 /* block-comment */
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 /* block-comment */
+
+`;
+
+exports[`bottom-block-comment.json - json5-verify 2`] = `
+1 /* block-comment */
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 /* block-comment */
+
+`;
+
+exports[`bottom-line-comment.json - json-verify 1`] = `
+1 // line-comment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 // line-comment
+
+`;
+
+exports[`bottom-line-comment.json - json-verify 2`] = `
+1 // line-comment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 // line-comment
+
+`;
+
+exports[`bottom-line-comment.json - json5-verify 1`] = `
+1 // line-comment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 // line-comment
+
+`;
+
+exports[`bottom-line-comment.json - json5-verify 2`] = `
+1 // line-comment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 // line-comment
+
+`;
+
+exports[`line-comment.json - json-verify 1`] = `
+{
+  //comment
+  "K":"V"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{
+  //comment
+  "K": "V"
+}
+
+`;
+
+exports[`line-comment.json - json-verify 2`] = `
+{
+  //comment
+  "K":"V"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{
+  //comment
+  "K": "V"
+}
+
+`;
+
+exports[`line-comment.json - json5-verify 1`] = `
+{
+  //comment
+  "K":"V"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{
+  //comment
+  K: "V"
+}
+
+`;
+
+exports[`line-comment.json - json5-verify 2`] = `
+{
+  //comment
+  "K":"V"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{
+  //comment
+  K: "V",
+}
+
+`;
+
+exports[`top-block-comment.json - json-verify 1`] = `
+/* comment */{
+  "foo": "bar"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/* comment */ {
+  "foo": "bar"
+}
+
+`;
+
+exports[`top-block-comment.json - json-verify 2`] = `
+/* comment */{
+  "foo": "bar"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/* comment */ {
+  "foo": "bar"
+}
+
+`;
+
+exports[`top-block-comment.json - json5-verify 1`] = `
+/* comment */{
+  "foo": "bar"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/* comment */ {
+  foo: "bar"
+}
+
+`;
+
+exports[`top-block-comment.json - json5-verify 2`] = `
+/* comment */{
+  "foo": "bar"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/* comment */ {
+  foo: "bar",
+}
+
+`;
+
+exports[`top-line-comment.json - json-verify 1`] = `
+// comment 1
+// comment 2
+{
+  "foo": "bar"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// comment 1
+// comment 2
+{
+  "foo": "bar"
+}
+
+`;
+
+exports[`top-line-comment.json - json-verify 2`] = `
+// comment 1
+// comment 2
+{
+  "foo": "bar"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// comment 1
+// comment 2
+{
+  "foo": "bar"
+}
+
+`;
+
+exports[`top-line-comment.json - json5-verify 1`] = `
+// comment 1
+// comment 2
+{
+  "foo": "bar"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// comment 1
+// comment 2
+{
+  foo: "bar"
+}
+
+`;
+
+exports[`top-line-comment.json - json5-verify 2`] = `
+// comment 1
+// comment 2
+{
+  "foo": "bar"
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// comment 1
+// comment 2
+{
+  foo: "bar",
+}
+
+`;
