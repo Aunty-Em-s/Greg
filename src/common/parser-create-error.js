@@ -1,0 +1,11 @@
+function createError(message, loc) {
+  // Construct an error similar to the ones thrown by Babel.
+  const error = new SyntaxError(
+    message + " (" + loc.start.line + ":" + loc.start.column + ")"
+  );
+  // @ts-expect-error - TBD (...)
+  error.loc = loc;
+  return error;
+}
+
+export default createError;
