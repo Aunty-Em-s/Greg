@@ -1,0 +1,46 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  labels: ["dependency"],
+  baseBranches: ["main"],
+  schedule: ["after 01:00 on sunday"],
+  postUpdateOptions: ["yarnDedupeHighest"],
+  prHourlyLimit: 0,
+  prConcurrentLimit: 0,
+  packageRules: [
+    {
+      matchPackageNames: ["react", "react-dom"],
+      groupName: "react",
+    },
+    {
+      matchPackagePrefixes: ["@babel/"],
+      excludePackageNames: ["@babel/parser"],
+      groupName: "babel",
+    },
+    {
+      matchPackagePrefixes: ["@typescript-eslint/"],
+      groupName: "typescript-eslint",
+    },
+    {
+      matchPackagePrefixes: ["@glimmer/"],
+      groupName: "glimmer",
+    },
+    {
+      branchPrefix: "renovate/website/",
+      matchPaths: ["website/package.json"],
+      labels: ["dependency:website"],
+    },
+    {
+      branchPrefix: "renovate/tools/",
+      matchPaths: [
+        "scripts/release/package.json",
+        "scripts/tools/bundle-test/package.json",
+        "scripts/tools/eslint-plugin-prettier-internal-rules/package.json",
+      ],
+      labels: ["dependency:tools"],
+    },
+  ],
+  ignoreDeps: [
+    // It's a dependency of `remark-parse`, use same version to reduce size
+    "collapse-white-space",
+  ],
+}
